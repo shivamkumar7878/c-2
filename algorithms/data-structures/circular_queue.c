@@ -9,7 +9,7 @@ int isFull()
 }
 int isEmpty()
 {
-    if(front == -1) return 1;
+    if(front == -1) && (rear==-1) return 1;
     return 0;
 }
 void enQueue(int element)
